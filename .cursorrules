@@ -1,0 +1,24 @@
+# Windows Sistem Hataları ve Çözümleri
+
+1. mkdir -p komutu Windows'ta çalışmıyor
+Çözüm: Her klasörü tek tek oluştur veya md komutunu kullan
+```powershell
+md backend
+cd backend
+md src
+cd src
+md controllers services models routes utils types
+```
+
+2. Powershell'de uzun komutlar hata veriyor
+Çözüm: Komutları daha kısa parçalara böl ve sırayla çalıştır
+
+3. Klasör Oluşturma Kuralları:
+- Önce ana klasörü oluştur
+- İçine gir (cd komutu ile)
+- Alt klasörleri oluştur
+- Her adımı doğrula (dir veya ls komutu ile)
+
+4. npm Komutları:
+- Her npm komutu öncesi ilgili klasörde olduğundan emin ol
+- package.json oluşturmadan önce klasörün var olduğunu kontrol et 
