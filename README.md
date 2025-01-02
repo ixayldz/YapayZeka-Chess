@@ -11,8 +11,8 @@ Projeyi Klonla:
 
 bash
 Kodu kopyala
-git clone https://github.com/kullanici-adi/my-chess-bot-project.git
-cd my-chess-bot-project
+git clone https://github.com/ixayldz/YapayZeka-Chess.git
+
 Backend Kurulumu:
 
 bash
